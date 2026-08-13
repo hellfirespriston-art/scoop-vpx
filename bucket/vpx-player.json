@@ -1,0 +1,32 @@
+{
+    "version": "2.0.26",
+    "description": "Desktop music player with a per-track demoscene oscilloscope. Plays ~70 formats, including MOD/XM/IT/S3M tracker modules.",
+    "homepage": "https://vpx-landing.vercel.app",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://vpx-landing.vercel.app"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hellfirespriston-art/vpx-releases/releases/download/v2.0.26/VPX-Setup.exe#/setup.exe",
+            "hash": "f3dd15ec6e3434fdbdc8b4c885e8e2a6b58496b2bdd1913658085381b6df8842"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "VPX.exe",
+            "VPX"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/hellfirespriston-art/vpx-releases"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hellfirespriston-art/vpx-releases/releases/download/v$version/VPX-Setup.exe#/setup.exe"
+            }
+        }
+    }
+}
