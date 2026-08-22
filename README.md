@@ -4,7 +4,7 @@ A [Scoop](https://scoop.sh) bucket for **VPX** — a Windows desktop music playe
 per-track demoscene oscilloscope, playing around 70 formats including the MOD/XM/IT/S3M
 tracker modules of the 90s.
 
-[![VPX oscilloscope in motion](https://vpx-landing.vercel.app/vpx-osc.gif)](https://vpx-landing.vercel.app)
+[![VPX oscilloscope in motion](https://vpx-landing.vercel.app/vpx-osc.gif)](https://vpx-landing.vercel.app/?utm_source=scoop)
 
 ```
 scoop bucket add vpx https://github.com/hellfirespriston-art/scoop-vpx
@@ -18,7 +18,7 @@ buckets added, `scoop install vpx/vpx-player` removes any ambiguity.
 The installer is Inno Setup, per-user (`PrivilegesRequired=lowest`) — no administrator
 prompt, nothing else installed on the machine. Scoop extracts it with `innounp`.
 
-- Homepage and download: https://vpx-landing.vercel.app
+- Homepage and download: https://vpx-landing.vercel.app/?utm_source=scoop
 - Try the engine in the browser, no install: https://vpx-scope.vercel.app/en/
 - Releases: https://github.com/hellfirespriston-art/vpx-releases
 
